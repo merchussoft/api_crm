@@ -1,0 +1,16 @@
+{
+  "name": "root/api_crm",
+  "descripcion": "api para el desarrollo de un crm basico",
+  "type": "library",
+  "authors": [
+    {
+      "name": "daniel merchan",
+      "email": "merchussoft@hotmail.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "4.*",
+    "adodb/adodb-php": "5.*",
+    "slim/psr7": "^1.6"
+  }
+}

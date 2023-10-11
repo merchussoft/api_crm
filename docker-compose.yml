@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  apr_crm:
+    build: .
+    ports:
+      - "8989:80"
+    volumes:
+      - ./:/var/www/html/api_crm/
+      - ./logapache/:/var/log/apache2/
+      - ./vendor:/var/www/html/vendor
